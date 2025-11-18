@@ -19,7 +19,6 @@ int main()
 	{
 		for (int item = 1; item <= N; ++item) // 현재 물건
 		{
-			dp[item][limit];
 			if (limit < W[item]) // 못담는 경우
 				dp[item][limit] = dp[item - 1][limit];
 			else

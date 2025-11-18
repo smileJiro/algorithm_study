@@ -91,7 +91,7 @@
     <Filter Include="2.BOJ\97.Implementation\gold">
       <UniqueIdentifier>{e8af4124-b7c7-41b2-af25-02bcba5c87d8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="2.BOJ\98.Backtracking\99.Retry">
+    <Filter Include="99.Retry">
       <UniqueIdentifier>{5bca32fe-d73f-4c35-af2a-3e1e30259558}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -236,12 +236,6 @@
     </ClCompile>
     <ClCompile Include="수열의부분합구하기.cpp">
       <Filter>1.study\Algorithm\투포인터</Filter>
-    </ClCompile>
-    <ClCompile Include="N과M(백트래킹).cpp">
-      <Filter>2.BOJ\98.Backtracking</Filter>
-    </ClCompile>
-    <ClCompile Include="N-Queen(백트래킹).cpp">
-      <Filter>2.BOJ\98.Backtracking</Filter>
     </ClCompile>
     <ClCompile Include="그룹단어체커.cpp">
       <Filter>2.BOJ\97.Implementation\silver</Filter>
@@ -559,52 +553,52 @@
       <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
     <ClCompile Include="N과M%282%29_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="N과M(5)_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="N과M(4)_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="1로만들기_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="ATM_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="바이러스_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="바이러스_re2.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="구간합구하기_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="2xn타일링_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="색종이만들기_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="나무자르기_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="연결요소의개수_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="좌표압축_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="숨바꼭질_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="쉬운최단경로_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="Z_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="구슬탈출2.cpp">
       <Filter>2.BOJ\2.SamsungS/W</Filter>
@@ -634,7 +628,7 @@
       <Filter>1.study\DataStructure</Filter>
     </ClCompile>
     <ClCompile Include="가장긴증가하는부분수열_re.cpp">
-      <Filter>2.BOJ\98.Backtracking\99.Retry</Filter>
+      <Filter>99.Retry</Filter>
     </ClCompile>
     <ClCompile Include="perfectforward.cpp">
       <Filter>99.Default</Filter>
@@ -665,6 +659,15 @@
     </ClCompile>
     <ClCompile Include="오목(2615).cpp">
       <Filter>2.BOJ\97.Implementation\silver</Filter>
+    </ClCompile>
+    <ClCompile Include="N-Queen(백트래킹).cpp">
+      <Filter>2.BOJ\98.Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="N과M(백트래킹).cpp">
+      <Filter>2.BOJ\98.Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="평범한배낭_re(12865).cpp">
+      <Filter>99.Retry</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
