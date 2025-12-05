@@ -11,9 +11,7 @@ void TopologySort(vector<vector<int>>& graph, vector<int>& indegree, vector<int>
 	for (int i = 1; i <= N; ++i)
 	{
 		if (indegree[i] == 0)
-		{
 			q.push(i);
-		}
 	}
 
 	// 2. 위상 정렬 수행
@@ -26,10 +24,9 @@ void TopologySort(vector<vector<int>>& graph, vector<int>& indegree, vector<int>
 			// adj node의 indegree 감소, 최대 비용 갱신
 			indegree[adj] -= 1;
 			dp[adj] = max(dp[adj], dp[idx] + cost[adj]);
+
 			if (indegree[adj] == 0)
-			{
 				q.push(adj);
-			}
 		}
 	}
 }
@@ -43,9 +40,9 @@ int main()
 	{
 		cin >> N >> K; // 노드 개수, 간선 수
 
-		vector<vector<int>> graph(N + 1); // 인접노드
-		vector<int> indegree(N + 1, 0); // 노드별 진입차수
-		vector<int> cost(N + 1, 0); // 각 노드별 최소시간을 기록
+		vector<vector<int>> graph(N + 1);	// 인접노드
+		vector<int> indegree(N + 1, 0);		// 노드별 진입차수
+		vector<int> cost(N + 1, 0);			// 각 노드별 건설비용을 기록
 		vector<int> dp(N + 1, 0);
 
 		// 자신의 건설비용 기록
