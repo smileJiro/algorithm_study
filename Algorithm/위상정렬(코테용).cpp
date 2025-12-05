@@ -11,6 +11,7 @@ void topologySort()
 	vector<int> result;
 	queue<int> q;
 
+	// 시작 노드 삽입 
 	for (int i = 1; i < indegree.size(); ++i)
 		if (indegree[i] == 0)
 		{
