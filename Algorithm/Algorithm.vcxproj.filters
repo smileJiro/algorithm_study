@@ -714,6 +714,9 @@
     <ClCompile Include="IOI(5525).cpp">
       <Filter>2.BOJ\1.Solved_ac\class3</Filter>
     </ClCompile>
+    <ClCompile Include="세용액(2473).cpp">
+      <Filter>2.BOJ\1.Solved_ac\class5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
