@@ -717,6 +717,9 @@
     <ClCompile Include="세용액(2473).cpp">
       <Filter>2.BOJ\1.Solved_ac\class5</Filter>
     </ClCompile>
+    <ClCompile Include="뱀%283190%29.cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
