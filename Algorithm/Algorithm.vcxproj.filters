@@ -732,6 +732,9 @@
     <ClCompile Include="음악프로그램%282623%29.cpp">
       <Filter>2.BOJ\1.Solved_ac\class5</Filter>
     </ClCompile>
+    <ClCompile Include="DanceDanceRevolution(2342).cpp">
+      <Filter>2.BOJ\1.Solved_ac\class5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
