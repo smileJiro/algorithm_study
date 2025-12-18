@@ -738,6 +738,9 @@
     <ClCompile Include="아기상어%2816236%29.cpp">
       <Filter>2.BOJ\1.Solved_ac\class4</Filter>
     </ClCompile>
+    <ClCompile Include="인구이동(16234).cpp">
+      <Filter>2.BOJ\97.Implementation\gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
