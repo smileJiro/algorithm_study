@@ -753,6 +753,9 @@
     <ClCompile Include="특정한최단경로_re.cpp">
       <Filter>99.Retry</Filter>
     </ClCompile>
+    <ClCompile Include="벽부수고이동하기_re.cpp">
+      <Filter>99.Retry</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyVector.h">
